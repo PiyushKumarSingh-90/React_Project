@@ -1,0 +1,44 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    background-color: #040714;
+    
+    color:aliceblue;
+    font-family: Avenir-Roman, sans-serif;
+}
+
+@media only screen and (min-width:768px) 
+{
+    body
+    {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:768px) and (min-width:480px)
+{
+    body
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:479px) 
+{
+    body
+    {
+        font-size: 14px;
+    }
+}
